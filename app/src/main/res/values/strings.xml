@@ -1,3 +1,40 @@
 <resources>
-    <string name="app_name">Sparrow</string>
+    <string name="app_name">上海芯钛</string>
+    <string name="car_name">荣威i5</string>
+    <string name="user_interface">用户界面</string>
+    <string name="title_top">Top fragment</string>
+
+    <string name="home_tab">主页</string>
+    <string name="first_tab">坐参</string>
+    <string name="second_tab">个性化</string>
+    <string name="third_tab">人脸识别</string>
+    <string name="nav_support">支持</string>
+    <string name="nav_help">帮助</string>
+    <string name="nav_feedback">反馈</string>
+
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+
+    <string-array name="first">
+        <item>座椅</item>
+        <item>后视镜</item>
+    </string-array>
+    <string-array name="second">
+        <item>音乐</item>
+        <item>主题</item>
+        <item>APP</item>
+    </string-array>
+    <string-array name="third">
+        <item>人脸</item>
+        <item>识别</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>用户登陆</item>
+        <item>用户管理</item>
+        <item>用户登出</item>
+        <item>系统功能</item>
+    </string-array>
+    <string name="com_logo">上海汽车</string>
+
 </resources>

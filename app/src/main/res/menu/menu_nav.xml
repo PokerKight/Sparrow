@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/home_tab"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/first_tab"/>
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="@string/second_tab"/>
+        <item
+            android:id="@+id/nav_third"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/third_tab"/>
+    </group>
+
+    <item android:title="@string/nav_support">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/nav_help"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="@string/nav_feedback"/>
+        </menu>
+    </item>
+</menu>
