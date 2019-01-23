@@ -1,20 +1,20 @@
 package app.sparrow;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-public class UserActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user);
+        setContentView(R.layout.activity_login);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
@@ -27,14 +27,14 @@ public class UserActivity extends AppCompatActivity {
                                             View view,
                                             int position,
                                             long id) {
-                        if (position == 0) {
-                            Intent intent = new Intent(UserActivity.this,
-                                    LoginActivity.class);
+                        if (position == 2) {
+                            Intent intent = new Intent(LoginActivity.this,
+                                    QrcodeActivity.class);
                             startActivity(intent);
                         }
                     }
                 };
-        ListView listView = (ListView) findViewById(R.id.list_options);
+        ListView listView = (ListView) findViewById(R.id.list_login);
         listView.setOnItemClickListener(itemClickListener);
     }
 }

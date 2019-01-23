@@ -26,7 +26,10 @@
             <android.support.design.widget.TabLayout
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                app:tabTextColor="#DA711A"
+                app:tabSelectedTextColor="#FF7502"
+                app:tabIndicatorColor="#F6FA07"/>
         </android.support.design.widget.AppBarLayout>
 
         <android.support.v4.view.ViewPager

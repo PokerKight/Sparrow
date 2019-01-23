@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FeedActivity"></activity>
+        <activity android:name=".QrcodeActivity"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login_interface"
+            android:parentActivityName=".UserActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTICITY"
+                android:value=".UserActivity" />
+        </activity>
+        <activity android:name=".FeedActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

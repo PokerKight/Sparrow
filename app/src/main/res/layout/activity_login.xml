@@ -5,23 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".UserActivity"
-    android:background="#FFFFFF">
+    tools:context=".LoginActivity">
 
     <include
         layout="@layout/toolbar_main"
         android:id="@+id/toolbar"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/com"
-        android:contentDescription="@string/com_logo"/>
-
     <ListView
-        android:id="@+id/list_options"
+        android:id="@+id/list_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/options"/>
+        android:entries="@array/logins"/>
 
 </LinearLayout>

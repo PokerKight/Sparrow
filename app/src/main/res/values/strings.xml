@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">上海芯钛</string>
+    <string name="app_name">ADM</string>
     <string name="car_name">荣威i5</string>
     <string name="user_interface">用户界面</string>
+    <string name="login_interface">登陆方式</string>
     <string name="title_top">Top fragment</string>
 
     <string name="home_tab">主页</string>
-    <string name="first_tab">坐参</string>
+    <string name="first_tab">车参</string>
     <string name="second_tab">个性化</string>
     <string name="third_tab">人脸识别</string>
     <string name="nav_support">支持</string>
@@ -34,6 +35,11 @@
         <item>用户管理</item>
         <item>用户登出</item>
         <item>系统功能</item>
+    </string-array>
+    <string-array name="logins">
+        <item>帐户登陆</item>
+        <item>人脸登陆</item>
+        <item>二维码登陆</item>
     </string-array>
     <string name="com_logo">上海汽车</string>
 
